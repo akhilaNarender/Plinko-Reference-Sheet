@@ -10,6 +10,7 @@ class Ground{
     }
     display(){
       var pos =this.body.position;
+        console.log(pos.x)
       rectMode(CENTER);
       fill("white");
     rect(pos.x, pos.y, this.w,this.h);
